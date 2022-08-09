@@ -12,3 +12,8 @@ jobs:
         run: |
           npm install -g bats
           bats --version
+      - name: Disply File Numbers
+        run: |
+          ls -al
+          cd .github/workflows/
+          ls -al
