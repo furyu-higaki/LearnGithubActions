@@ -3,6 +3,7 @@ on: workflow_dispatch
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: FIREBASE
     steps:
       - uses: actions/checkout@v2
       - name: set up JDK 11
